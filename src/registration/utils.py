@@ -6,7 +6,7 @@ __author__ = 'Alisue <lambdalisue@hashnote.net>'
 import random
 
 from django.contrib.sites.models import Site
-from django.contrib.sites.models import RequestSite
+from django.contrib.sites.requests import RequestSite
 from registration.compat import sha1
 
 
