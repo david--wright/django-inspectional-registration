@@ -29,7 +29,7 @@ Sent when inspector accpet the account registration
         An activation key used to generate activation url. To generate
         activation url, use the following template command::
 
-            {% load url from future %}
+            {% load url %}
             
             http://{{ site.domain }}{% url 'registration_activate' activation_key=activation_key %}
 
@@ -56,7 +56,7 @@ Sent when inspector accpet the account registration
         An activation key used to generate activation url. To generate
         activation url, use the following template command::
 
-            {% load url from future %}
+            {% load url %}
             
             http://{{ site.domain }}{% url 'registration_activate' activation_key=activation_key %}
 

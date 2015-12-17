@@ -560,7 +560,7 @@ class RegistrationProfile(models.Model):
             The activation key for tne new account. Use following code to get
             activation url in the email body::
 
-                {% load url from future %}
+                {% load url %}
                 http://{{ site.domain }}
                 {% url 'registration_activate' activation_key=activation_key %}
 
